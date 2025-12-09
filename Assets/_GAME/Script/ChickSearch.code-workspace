@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"name": "MR_Gruenlichtviertel",
+			"path": "../../../../OneDrive/Dokumente/PlatformIO/Projects/MR_Gruenlichtviertel"
+		},
+		{
+			"path": "../../../../OneDrive/Desktop/hs_trier/3_semester/medienräume/experiment_objekte"
+		}
+	],
+	"settings": {
+		"dotnet.defaultSolution": "ChickSearch.slnx"
+	}
+}
