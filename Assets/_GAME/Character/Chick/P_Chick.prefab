@@ -68,6 +68,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Chick
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: a3af25fe0c13cf34b8e7a53a075637ff,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e5ef305fc39b8d14883eea84bb592bd8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -120,3 +125,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 169e001a1bcbc2048bb5c74cb9702ee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chick
+  collectEffect: {fileID: 3820318241100763905, guid: f38c132e333e2474780c03882e7845eb,
+    type: 3}

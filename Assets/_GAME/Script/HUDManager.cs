@@ -9,11 +9,13 @@ public class HUDManager : MonoBehaviour
 
     public EventSystem eventSystem;
     public GameObject firstSelectedButton;
+    private AudioSource audioSource;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         if(winPanel) winPanel.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,7 @@ public class HUDManager : MonoBehaviour
     public void ShowWinPanel()
     {
         if(winPanel) winPanel.SetActive(true);
+        if(audioSource) audioSource.Play();
 
         Time.timeScale = 0f; //Pause the game
 
